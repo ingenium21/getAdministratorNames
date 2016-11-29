@@ -7,7 +7,7 @@ import-module activedirectory #imports Active Directory module
 #declare variables for Send-MailMessage
 $emailFrom = "administrator@eteraconsulting.com"
 $emailTo = "renato.regalado@mindshift.com", "casey.ferguson@mindshift.com"
-$smtpServer = "10.151.128.200"
+$smtpServer = "" #put in your SMTP server IP here
 $date = get-date
 $emailSubject = "eTera Group Report -- $date"
 
