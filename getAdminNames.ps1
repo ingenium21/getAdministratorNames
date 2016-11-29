@@ -9,7 +9,7 @@ $emailFrom = "administrator@eteraconsulting.com"
 $emailTo = "renato.regalado@mindshift.com", "casey.ferguson@mindshift.com"
 $smtpServer = "" #put in your SMTP server IP here
 $date = get-date
-$emailSubject = "eTera Group Report -- $date"
+$emailSubject = "Admin Report -- $date"
 
 #get list of the members of particular AD Group
 $schemaAdmins = get-ADGroupMember "Schema Admins" | Sort Name | Select -Expand Name #-expand switch removes the "Name" Header
