@@ -1,5 +1,5 @@
 #admins.ps1
-#Author: Renato Regalado
+#Author: ingenium21
 #This script gets the members from Schema Admins, Domain Admins, Enterprise Admins, and SQL Admins.  It then emails the list to administrators
 
 import-module activedirectory #imports Active Directory module
