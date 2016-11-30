@@ -24,7 +24,7 @@ $sqlAdminsList = foreach ($q in $sqlAdmins) {write-output $q "<br>"}
 #declare the Body of the Email using HTML formatting
 $emailBody += Write-output "<b>Here is a list of your Domain Admins</b> <br>"
 $emailBody += Write-output "<b>============================ </b> <br>"
-$emailBody += $domainAdminsList | out-string #without the out-string command 
+$emailBody += $domainAdminsList | out-string #without the out-string returns no data.
 $emailBody += write-output "<br>"
 $emailBody += write-output "<br>"
 
