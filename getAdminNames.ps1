@@ -6,7 +6,7 @@ import-module activedirectory #imports Active Directory module
 
 #declare variables for Send-MailMessage
 $emailFrom = "administrator@eteraconsulting.com"
-$emailTo = "renato.regalado@mindshift.com", "casey.ferguson@mindshift.com"
+$emailTo = "" #Emails you want here, separate them with a comma
 $smtpServer = "" #put in your SMTP server IP here
 $date = get-date
 $emailSubject = "Admin Report -- $date"
