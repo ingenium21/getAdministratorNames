@@ -5,7 +5,7 @@
 import-module activedirectory #imports Active Directory module; you will need the AD module, helps to run this from a DC
 
 #declare variables for Send-MailMessage
-$emailFrom = "administrator@eteraconsulting.com"
+$emailFrom = "" #email you want to be sending this report.
 $emailTo = "" #Emails you want here, separate them with a comma
 $smtpServer = "" #put in your SMTP server IP here
 $date = get-date
