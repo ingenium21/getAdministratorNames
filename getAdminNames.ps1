@@ -1,6 +1,6 @@
 #admins.ps1
 #Author: ingenium21
-#This script gets the members from Schema Admins, Domain Admins, Enterprise Admins, and SQL Admins.  It then emails the list to administrators
+#This script gets the members from Schema Admins, Domain Admins, Enterprise Admins, and SQL Admins.  It then emails the list to whomever you want
 
 import-module activedirectory #imports Active Directory module; you will need the AD module, helps to run this from a DC
 
